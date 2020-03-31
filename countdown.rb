@@ -5,10 +5,10 @@
 #Write this in a new method called countdown_with_sleep that also takes one integer argument for the countdown.
 
 def countdown_with_sleep(int)
-  def countdown(int)
     while (int > 0)
     puts "#{int} SECOND(S)!"
     int -= 1
   end
     "HAPPY NEW YEAR!"
+end
 end
