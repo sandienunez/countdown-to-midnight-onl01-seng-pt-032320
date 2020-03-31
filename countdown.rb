@@ -4,26 +4,10 @@
 #See if you can make the loop pause for one second each trip around (hint). 
 #Write this in a new method called countdown_with_sleep that also takes one integer argument for the countdown.
 
-def countdown(num)
-
-while num > 0
-
-  puts "#{num} SECOND(S)!"
-  num -= 1
-
+def countdown(seconds)
+  while seconds > 0
+    puts "#{seconds} SECOND(S)!"
+    seconds -= 1
+  end
+  return "HAPPY NEW YEAR!"
 end
-  "HAPPY NEW YEAR!"
-end
-
-
-def countdown_with_sleep(num)
-
-while num > 0
-
-  puts "#{num} SECOND(S)!"
-  sleep(1)
-  num -= 1
-
-end
-  "HAPPY NEW YEAR!"
-end	end
